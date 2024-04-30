@@ -9,11 +9,6 @@ These are resources for the following research:
 
 - ***Doing Personal LAPS: LLM-Augmented Dialogue Construction for Personalized Multi-Session Conversational Search***, Hideaki Joko, Shubham Chatterjee, Andrew Ramsay, Arjen P. de Vries, Jeff Dalton, Faegheh Hasibi, SIGIR 2022.
 
-<!-- ![example](./example.png) -->
-<img src="https://github.com/informagi/laps/blob/main/example.png" width="600">
-
-**Figure: An snippet from a multi-session dialogue in the recipe domain.**
-
 
 This repository is structured in the following way:
 <!-- 
@@ -27,6 +22,12 @@ This repository is structured in the following way:
 - `downstream/` : Instructions, trained models, and prompts for the preference extraction and personalized recommendation tasks.
 
 # LAPS Dataset
+
+
+<!-- ![example](./example.png) -->
+<img src="https://github.com/informagi/laps/blob/main/example.png" width="600">
+
+**Figure: An snippet from a multi-session dialogue in the recipe domain.**
 
 ## Dataset
 

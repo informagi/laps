@@ -9,8 +9,8 @@ These are resources for the following research:
 
 - ***Doing Personal LAPS: LLM-Augmented Dialogue Construction for Personalized Multi-Session Conversational Search***, Hideaki Joko, Shubham Chatterjee, Andrew Ramsay, Arjen P. de Vries, Jeff Dalton, Faegheh Hasibi, SIGIR 2022.
 
-![example](./example.png)
-<!-- <img src="https://github.com/informagi/laps/blob/main/example.png" width="600"> -->
+<!-- ![example](./example.png) -->
+<img src="https://github.com/informagi/laps/blob/main/example.png" width="600">
 
 **Figure: An snippet from a multi-session dialogue in the recipe domain.**
 
@@ -81,8 +81,8 @@ More specifically, the method consists of four key elements as follows:
 - (iii) Utterance composition: The human agent composes the assistant response based on the LLM-generated guidance, and then switches to the role of a user, providing a response to the previous utterance.
 - (iv) Preference extraction: Preferences are extracted from the dialogue using an LLM and checked by the human agent. These preferences are stored in the preference memory and used in subsequent sessions for generating personalized guidance. -->
 
-![example](./laps_method.png)
-<!-- <img src="https://github.com/informagi/laps/blob/main/laps_method.png" width="600"> -->
+<!-- ![example](./laps_method.png) -->
+<img src="https://github.com/informagi/laps/blob/main/laps_method.png" width="600">
 
 
 `method/` contains the code for the LAPS method.

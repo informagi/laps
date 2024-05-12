@@ -15,16 +15,6 @@ def calculate_prf(tp, fp, fn):
 
     return p, r, f
 
-# {'pred': {'tp': [[0, 0],
-#    [0, 1],
-#    [0, 0],
-#    [1, 0],
-#    [1, 0],
-#    [0, 0],
-#    [0, 1],
-#    [0, 0],
-#    [0, 1],
-
 def calculate_overall_prf_scores(counts_list, flag_print):
     """Calculate overall precision, recall, and f1 scores from multiple target_session_len
     """    
@@ -456,24 +446,3 @@ def display_f1_scores_from_given_prf_lost_in_the_middle_style(prf_scores, target
     # Adjust layout
     plt.tight_layout()
     plt.show()
-
-
-# def print_avg_prf_per_session(prf_scores, target_session_len):
-#     for category in ['pred', 'baseline', 'gold']:
-#         print(f"\nPRF scores for each session for {category}:")
-#         for session in range(target_session_len): 
-#             print(f"Session {session} - P: {prf_scores[category]['p'][session]:.3f}, R: {prf_scores[category]['r'][session]:.3f}, F1: {prf_scores[category]['f'][session]:.3f}")
-
-#         print(f"\nAverage PRF scores for {category} - P: {np.mean(prf_scores[category]['p']):.3f}, R: {np.mean(prf_scores[category]['r']):.3f}, F1: {np.mean(prf_scores[category]['f']):.3f}")
-
-# if __name__ == '__main__':
-    # from eval_recommendation import EvalRecommendation
-    # EvalRecommendation = eval_recommendation.EvalRecommendation
-    # eval_recommendation = EvalRecommendation(test_recommendation, target_session_len=3)
-    # eval_recommendation.calc_metrics()
-    # eval_recommendation.calculate_prf_scores()
-    # eval_recommendation.display_f1_scores()
-    # eval_recommendation.calculate_ratios()
-    # eval_recommendation.display_ratios()
-    # eval_recommendation.calculate_preference_recall_for_each_session()
-    # eval_recommendation.display_preference_recall_for_each_session()

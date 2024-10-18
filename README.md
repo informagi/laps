@@ -7,7 +7,7 @@ LAPS (LLM-Augmented Personalized Self-Dialogue) is a method for constructing per
 This repository contains the LAPS dataset and code for the method, as well as code for evaluating the dialogues.
 These are resources for the following research:
 
-- ***[Doing Personal LAPS: LLM-Augmented Dialogue Construction for Personalized Multi-Session Conversational Search](https://arxiv.org/abs/2405.03480)***, Hideaki Joko, Shubham Chatterjee, Andrew Ramsay, Arjen P. de Vries, Jeff Dalton, Faegheh Hasibi, SIGIR 2024.
+- ***[Doing Personal LAPS: LLM-Augmented Dialogue Construction for Personalized Multi-Session Conversational Search](https://dl.acm.org/doi/10.1145/3626772.3657815)***, Hideaki Joko, Shubham Chatterjee, Andrew Ramsay, Arjen P. de Vries, Jeff Dalton, Faegheh Hasibi, SIGIR 2024. [[slides](https://docs.google.com/presentation/d/1gnAtSBUFicO3GEy_aJ0VXMpbgBtEC18F5Z7IB06dvKk/edit?usp=sharing), [recording](https://youtu.be/tnPZL3XuhmI?si=fDj4rpGxa-6xvNYB)]
 
 
 This repository is structured in the following way:
